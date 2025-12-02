@@ -23,7 +23,7 @@ def is_invalid_id(n: int):
 
     return False
 
-with open(r"C:\Users\monfortel_asmilan\Downloads\Advent of Code 2025\Day 2\input.txt") as f:
+with open(r"C:\Users\***\***\Advent of Code 2025\Day 2\input.txt") as f:
     lines = f.readlines()
 
 total = 0
@@ -39,3 +39,4 @@ for line in lines:
 print(total)
 print("Total invalid IDs found:", count_invalids_total)
 print("List of invalid IDs:", list_invalids)
+
